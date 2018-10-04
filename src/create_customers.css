@@ -1,0 +1,198 @@
+.form {
+    margin: auto;
+    display: inline-block;
+}
+
+.card-header {
+    background-color: #FFFFFF;
+}
+
+.textarea-form{
+    background-color: #FFFFFF !important;
+    height: 100px;
+    resize: none;
+}
+sup::before{
+    content: "* " 
+}
+input[type=number]{
+    text-align:right;
+    padding-right:2px;
+}
+.delete-product, .delete-bundle, .delete-sales{
+    color: #d81159;
+}
+.delete-product:hover, .delete-bundle:hover, .delete-sales:hover{
+    cursor:pointer;
+}
+.main-content{
+    min-width:400px;
+}
+#submit-customer{
+    width:100%;
+}
+.required{
+    color: #d81159
+}
+
+
+@keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.lds-eclipse div {
+    position: absolute;
+    -webkit-animation: lds-eclipse 1.1s linear infinite;
+    animation: lds-eclipse 1.1s linear infinite;
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 0 0 #0197f6;
+    -webkit-transform-origin: 80px 82px;
+    transform-origin: 80px 82px;
+}
+.lds-eclipse {
+    position: relative;
+    width: 200px !important;
+    height: 200px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    margin:auto;
+    display:none;
+}
+body{
+    position: relative;
+}
+.lds-css{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+.centered{
+    text-align:center;
+}
+
+.bundle{
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+    padding-top:5px;
+}
+
+.bundle .row{
+    margin-left:0px; margin-right: 0px; margin-bottom:5px;
+}
+
+.bundle .switch-button{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.bundle-name{
+    font-size:1.25rem;
+    font-weight: 700;
+    color: #0197f6;
+    margin-bottom: 0px;
+}
+
+.bundle-name:hover{
+    cursor: pointer;
+}
+
+.bundle-name-input{
+    font-size:1.25rem;
+    font-weight: 700;
+    border: none; border-bottom: 1px solid #0197f6;
+    padding: 0px; padding-bottom: .5rem;
+    line-height: 1.538rem;
+    display: none;
+}
+
+.bundle-category{
+    font-size:1.1rem;
+    font-weight: 700;
+    margin-left:7px;
+}
+
+.bundle-category-value{
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-left:17px;
+}
+
+.bundle-category-value .material-icons{
+    font-size: inherit !important;
+}
+
+.bundle-category-value:hover{
+    cursor: pointer;
+}
+
+.bundle-category-select{
+    display: none;
+    height: inherit !important;
+}
+
+.bundle-product{
+    font-size:1.1rem;
+    font-weight: 400;
+}
+
+.bundle-product label, .bundle-header label{
+    padding:0px;
+}
+
+.bundle-header{
+    border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+.bundle-header label{
+    font-size:1.1rem;
+    font-weight: 700;
+}
+
+.delete-bundle{
+    margin-bottom: 0px;
+}
+
+#sales_header th, #sales_rows td{
+    text-align: center;
+}
+
+#sales_rows td input{
+    max-width: 200px;
+    display:inline-block;
+}
+
+input[type="file"]{
+    font-size: 1rem;
+}
